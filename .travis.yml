@@ -1,9 +1,0 @@
-language: ruby
-rvm:
-  - "2.0"
-install:
-# libclang-3.2-dev
-    - sudo add-apt-repository --yes ppa:h-rayflood/llvm
-    - sudo apt-get -qq update
-    - sudo apt-get -qq install libclang-3.2-dev
-    - bundle install
